@@ -1,0 +1,54 @@
+
+#section0{
+		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+		background: linear-gradient(#4BBFC3,#7BAABE);
+	}
+
+  #section1{
+  		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+  		background: -webkit-linear-gradient(#7BAABE, #969AC6);
+  		background: linear-gradient(#7BAABE,#969AC6);
+  	}
+  #section2{
+		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+		background: -webkit-linear-gradient(#969AC6, #636F8F);
+		background: linear-gradient(#969AC6,#636F8F);
+	}
+
+  h1{
+  		font-size: 5em;
+  		font-family: arial,helvetica;
+  		color: #fff;
+  		margin:0;
+  		padding:0;
+  	}
+  	.intro p{
+  		color: #fff;
+  	}
+
+    #header, #footer{
+    		position:fixed;
+    		height: 50px;
+    		display:block;
+    		width: 100%;
+    		background: #333;
+    		z-index:9;
+    		text-align:center;
+    		color: #f2f2f2;
+    		padding: 20px 0 0 0;
+    	}
+    	#header{
+    		top:0px;
+    	}
+    	#footer{
+    		bottom:0px;
+    	}
+
+      a{
+        font-size: 1em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:2em;
+      }
