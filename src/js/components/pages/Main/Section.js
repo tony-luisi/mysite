@@ -10,6 +10,7 @@ export default class Section extends Component {
     return(
         <div className='section' id={this.props.section_id}>
           <h1>{this.props.title}</h1>
+          <p>This is some writing. I hope it works out ok</p>
           {/*<Slide title="slide1" />*/}
           {/*<Slide title="slide2" />*/}
         </div>

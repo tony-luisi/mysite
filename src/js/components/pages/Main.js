@@ -8,7 +8,10 @@ export default class Main extends Component {
   }
 
   componentDidMount(){
-    $('#general').fullpage()
+    $('#general').fullpage({
+      navigation: true,
+			navigationPosition: 'right'
+    })
   }
 
   componentWillUnmount(){

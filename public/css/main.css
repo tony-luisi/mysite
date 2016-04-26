@@ -1,54 +1,75 @@
 
 #section0{
-		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-		background: linear-gradient(#4BBFC3,#7BAABE);
-	}
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+	display: inline-flex;
+}
 
-  #section1{
-  		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
-  		background: -webkit-linear-gradient(#7BAABE, #969AC6);
-  		background: linear-gradient(#7BAABE,#969AC6);
-  	}
-  #section2{
-		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
-		background: -webkit-linear-gradient(#969AC6, #636F8F);
-		background: linear-gradient(#969AC6,#636F8F);
-	}
+#section1{
+	background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+	background: -webkit-linear-gradient(#7BAABE, #969AC6);
+	background: linear-gradient(#7BAABE,#969AC6);
+}
 
-  h1{
-  		font-size: 5em;
-  		font-family: arial,helvetica;
-  		color: #fff;
-  		margin:0;
-  		padding:0;
-  	}
-  	.intro p{
-  		color: #fff;
-  	}
+#section2{
+	background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+	background: -webkit-linear-gradient(#969AC6, #636F8F);
+	background: linear-gradient(#969AC6,#636F8F);
+}
 
-    #header, #footer{
-    		position:fixed;
-    		height: 50px;
-    		display:block;
-    		width: 100%;
-    		background: #333;
-    		z-index:9;
-    		text-align:center;
-    		color: #f2f2f2;
-    		padding: 20px 0 0 0;
-    	}
-    	#header{
-    		top:0px;
-    	}
-    	#footer{
-    		bottom:0px;
-    	}
+h1{
+  font-size: 5em;
+  font-family: arial,helvetica;
+  color: #fff;
+	margin:0;
+	padding:0;
+}
 
-      a{
-        font-size: 1em;
-        font-family: arial,helvetica;
-        color: #fff;
-        margin:0;
-        padding:2em;
-      }
+.intro p{
+	color: #fff;
+}
+
+#header{
+	position:fixed;
+	height: 50px;
+	width: 100%;
+	background: #333;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+	display: block;
+}
+
+.brand {
+	text-align:left;
+	/*display: inline-block;*/
+}
+
+.links{
+	text-align: center;
+	/*display: inline-flex;*/
+}
+
+#header{
+	top:0px;
+}
+
+#header a{
+  font-size: 1em;
+  font-family: arial,helvetica;
+  color: tomato;
+  margin:0;
+  padding:2em;
+  text-decoration: none;
+}
+
+.intro p{
+	color: #fff;
+	padding:40px 0 0 0;
+}
+
+.section{
+	text-align:center;
+}

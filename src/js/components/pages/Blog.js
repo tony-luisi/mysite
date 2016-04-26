@@ -19,10 +19,9 @@ export default class Blog extends Component {
   render(){
     return(
       <div id='blog'>
-
         <Section title="Post" section_id="section0" />
         <Section title="Post 2" section_id="section1"/>
-        <Section title="History" section_id="section2"/>
+        <Section title="Post 3" section_id="section2"/>
       </div>
 
     )
